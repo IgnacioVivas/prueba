@@ -1,5 +1,5 @@
 import Sequelize from 'sequelize';
-import { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } from '../config.js';
+// import { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } from '../config.js';
 
 // export const sequelize = new Sequelize('prueba', 'postgres', 'homeroaleli', {
 //   host: 'localhost',
@@ -7,7 +7,7 @@ import { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } from '../config.js';
 // });
 
 export const sequelize = new Sequelize(
-  'postgresql://postgres:aH4A5k105L3Npd3P3MgK@containers-us-west-104.railway.app:6434/railway',
+  'postgresql://postgres:EIN9QwARV0lW7Sho1jw0@containers-us-west-19.railway.app:6341/railway',
   {
     // database: DB_NAME,
     // username: DB_USER,
